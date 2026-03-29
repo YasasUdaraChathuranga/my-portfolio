@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yasas Udara | Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <h2 class="logo">Yasas Udara Chathuranga Dharmasena</h2>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+      <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+      <li><a href="#projects"><i class="fas fa-briefcase"></i> Projects</a></li>
+      <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+    </ul>
+  </nav>
+  <button id="theme-toggle">
+    <i class="fas fa-moon"></i>
+  </button>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-content">
+
+    <img src="images/profile.png" class="profile-img">
+
+    <h1>Hi, I'm Udara 👋</h1>
+    <h2><span id="typing"></span></h2>
+
+    <p>I build Android apps, modern web applications & smart IoT applications.</p>
+
+    <div class="hero-buttons">
+      <a href="#projects" class="btn">View Projects</a>
+      <a href="cv.pdf" class="btn-outline" download>Download CV</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" data-aos="fade-up">
+  <h2>About Me</h2>
+  <p>
+    I am a graduate of the University of Colombo with a specialized degree in Electronics and Information Technology. I am passionate about leveraging my technical knowledge and problem-solving skills to contribute effectively to a forward-thinking organization.
+    My goal is to join a reputable company where I can apply my academic knowledge to real-world challenges, contribute to business growth, and continuously develop my professional career in the field of Information Technology.
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" data-aos="fade-up">
+  <h2>Skills</h2>
+  <div class="skills-container">
+    <div class="skill">HTML</div>
+    <div class="skill">CSS</div>
+    <div class="skill">JavaScript</div>
+    <div class="skill">Kotlin</div>
+    <div class="skill">Firebase</div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" data-aos="fade-up">
+  <h2>Projects</h2>
+
+  <div class="project-card">
+    <div class="slider">
+      <img src="images/project1a.jpg" class="slide active">
+      <img src="images/project1b.jpg" class="slide">
+      <img src="images/project1c.jpg" class="slide">
+      <img src="images/project1d.jpg" class="slide">
+      <img src="images/project1e.jpg" class="slide">
+    </div>
+    <h3>Interruption Notification Mobile Application</h3>
+    <p>Android app to When a fault happened in a production line management can notify it to the service personal and track the progress.</p>
+
+    <div class="project-buttons">
+      <a href="#" class="btn">GitHub</a>
+      <a href="#" class="btn-outline">Live</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <div class="slider">
+      <img src="images/project2a.jpg" class="slide active">
+      <img src="images/project2b.jpg" class="slide">
+      <!--<img src="images/project2c.jpg" class="slide">-->
+    </div>
+    <h3>Web Application</h3>
+    <p>"Creation of responsive and interactive web applications using HTML, CSS, JavaScript, and modern frameworks. Focused on functionality, performance, and user experience."</p>
+
+    <div class="project-buttons">
+      <a href="#" class="btn">GitHub</a>
+      <a href="#" class="btn-outline">Live</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <div class="slider">
+      <img src="images/project3a.jpg" class="slide active">
+      <img src="images/project3b.jpg" class="slide">
+      <!--<img src="images/project2c.jpg" class="slide">-->
+    </div>
+    <h3>Portfolio Website</h3>
+    <p>"Showcase of personal and professional work including projects. Demonstrates skills, creativity, and technical expertise."</p>
+
+    <div class="project-buttons">
+      <a href="#" class="btn">GitHub</a>
+      <a href="#" class="btn-outline">Live</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <div class="slider">
+      <img src="images/project4a.jpg" class="slide active">
+      <img src="images/project4b.jpg" class="slide">
+      <img src="images/project4c.jpg" class="slide">
+    </div>
+    <h3>Electronics Projects</h3>
+    <p>"Development of Embedded Systems and Arduino/Microcontroller-based projects, including smart IoT (Internet of Things) applications. Focused on automation, sensor integration, real-time data processing, and practical electronics solutions."</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" data-aos="fade-up">
+  <h2>Contact Me</h2>
+
+  <form id="contact-form">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn">Send</button>
+  </form>
+
+  <div class="social-icons">
+  <a href=https://web.facebook.com/yasasudara.dharmasena/?viewas=100000686899395 target="_blank">
+    <i class="fab fa-facebook"></i>
+  </a>
+  <a href="https://wa.me/94702028420" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/udara-dharmasena-849832246/" target="_blank">
+    <i class="fab fa-linkedin"></i>
+  </a>
+  <a href="https://github.com/YasasUdaraChathuranga" target="_blank">
+    <i class="fab fa-github"></i>
+  </a>
+</div>
+
+</section>
+
+<footer>
+  <p>© 2026 Yasas Udara</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<script>
+(function(){
+  emailjs.init("fle5_3CmhffWc1ZQB");
+})();
+</script>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
